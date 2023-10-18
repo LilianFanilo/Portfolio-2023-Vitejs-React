@@ -1,0 +1,30 @@
+.SectionTitle {
+    position: relative;
+    width: fit-content;
+    margin-bottom: 30px;
+    font-size: 52px;
+    line-height: 52px;
+    -webkit-text-stroke: 1px #001407;
+    color: white;
+
+    &::before {
+        content: "";
+        position: absolute;
+        width: 70%;
+        bottom: -10%;
+        left: 0;
+        height: 20px;
+        border-radius: 2px;
+        background: linear-gradient(111.3deg, #00ccff 9.6%, #00ff59 93.6%);
+        // background: linear-gradient(111.3deg, #ff00ff 9.6%, #00e1ff 93.6%);
+        opacity: 0.5;
+        transition: all ease 0.5s;
+        z-index: -1;
+    }
+
+    // &.in-view {
+    //     &::before {
+    //         width: 40%;
+    //     }
+    // }
+}
