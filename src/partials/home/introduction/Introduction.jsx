@@ -1,10 +1,14 @@
 import SectionPage from "../../../components/sections/SectionPage";
+import SkillTable from "../../../components/skillTable/SkillTable";
 
 
 const Introduction = () => {
 return (
     <SectionPage color="blue">
-        test
+        <div>
+            
+            <SkillTable/>
+        </div>
     </SectionPage>
 );
 }
