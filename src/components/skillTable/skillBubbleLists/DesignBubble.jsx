@@ -1,5 +1,7 @@
 import SkillTitle from "../skillTitle/SkillTitle";
-import SkillBubble from "./SkillBubble"
+import SkillBubble from "./SkillBubble";
+import s from './SkillBubble.module.scss';
+
 
 const DesignBubble = () => {
 
@@ -21,7 +23,7 @@ const DesignBubble = () => {
             <SkillTitle>
                 Design
             </SkillTitle>
-            <ul>
+            <ul className={s.SkillBubbleList}>
                 {designList}
             </ul>
         </div>

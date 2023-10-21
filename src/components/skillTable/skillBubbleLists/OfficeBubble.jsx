@@ -1,5 +1,7 @@
 import SkillTitle from "../skillTitle/SkillTitle";
 import SkillBubble from "./SkillBubble"
+import s from './SkillBubble.module.scss';
+
 
 const OfficeBubble = () => {
     const officeSkills = [
@@ -16,7 +18,7 @@ const OfficeBubble = () => {
             <SkillTitle>
                 Bureautique
             </SkillTitle>
-            <ul>
+            <ul className={s.SkillBubbleList}>
                 {officeList}
             </ul>
         </div>
