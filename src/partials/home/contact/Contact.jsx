@@ -1,12 +1,14 @@
+import ContactList from "../../../components/contactList/ContactList"
 import SectionTitle from "../../../components/sectionTitle/SectionTitle"
 import SectionPage from "../../../components/sections/SectionPage"
 
 const Contact = () => {
     return (
-        <SectionPage>
+        <SectionPage style="column">
             <SectionTitle>
                 Me contacter
             </SectionTitle>
+            <ContactList/>
         </SectionPage>
     )
 }
