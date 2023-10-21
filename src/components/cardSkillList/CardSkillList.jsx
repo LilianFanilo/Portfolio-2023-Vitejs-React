@@ -5,7 +5,7 @@ const CardSkillList = () => {
     return (
         <ul className={s.CardSkillList}>
             <CardSkill>Site MMI</CardSkill>
-            <CardSkill>Résaweb</CardSkill>
+            <CardSkill url='/resaweb' >Résaweb</CardSkill>
             <CardSkill>Yonnha</CardSkill>
             <CardSkill>DataViz</CardSkill>
             <CardSkill>Vovinam</CardSkill>

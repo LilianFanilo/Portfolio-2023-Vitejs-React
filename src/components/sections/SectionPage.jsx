@@ -1,4 +1,6 @@
 import s from './SectionPage.module.scss'
+import gsap from 'gsap'
+
 
 const SectionPage = (props) => {
 
@@ -6,7 +8,7 @@ const SectionPage = (props) => {
         flexDirection : props.style
     }
     return (
-      <section id='box' className={s.SectionPage} style={SectionStyle}>
+      <section className={s.SectionPage} style={SectionStyle}>
         {props.children}
       </section>
     );
