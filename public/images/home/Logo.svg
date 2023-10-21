@@ -1,0 +1,40 @@
+<svg width="162" height="159" viewBox="0 0 162 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_236_145)">
+<path d="M80.6697 0L97.5579 16.7778L20.8882 92.9401L4 76.1623L80.6697 0Z" fill="white"/>
+<path d="M80.6697 0L97.5579 16.7778L20.8882 92.9401L4 76.1623L80.6697 0Z" fill="url(#paint0_radial_236_145)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M131.334 50.3333L80.6697 0L30.0051 50.3333L80.6697 100.667L131.334 50.3333ZM97.5579 50.3333L80.6697 33.5556L63.7816 50.3333L80.6697 67.1111L97.5579 50.3333Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M131.334 50.3333L80.6697 0L30.0051 50.3333L80.6697 100.667L131.334 50.3333ZM97.5579 50.3333L80.6697 33.5556L63.7816 50.3333L80.6697 67.1111L97.5579 50.3333Z" fill="url(#paint1_radial_236_145)"/>
+<path d="M46.8933 83.8889L97.5579 134.222L80.6697 151L30.0051 100.667L46.8933 83.8889Z" fill="white"/>
+<path d="M46.8933 83.8889L97.5579 134.222L80.6697 151L30.0051 100.667L46.8933 83.8889Z" fill="url(#paint2_radial_236_145)"/>
+<path d="M141.112 57.3977L158 74.1754L80.6697 151L63.7816 134.222L141.112 57.3977Z" fill="white"/>
+<path d="M141.112 57.3977L158 74.1754L80.6697 151L63.7816 134.222L141.112 57.3977Z" fill="url(#paint3_radial_236_145)"/>
+</g>
+<defs>
+<filter id="filter0_d_236_145" x="0" y="0" width="162" height="159" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_236_145"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_236_145" result="shape"/>
+</filter>
+<radialGradient id="paint0_radial_236_145" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(81 75.5) rotate(90) scale(75.5 77)">
+<stop stop-color="white" stop-opacity="0.190982"/>
+<stop offset="1" stop-color="#E7E7E7"/>
+</radialGradient>
+<radialGradient id="paint1_radial_236_145" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(81 75.5) rotate(90) scale(75.5 77)">
+<stop stop-color="white" stop-opacity="0.190982"/>
+<stop offset="1" stop-color="#E7E7E7"/>
+</radialGradient>
+<radialGradient id="paint2_radial_236_145" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(81 75.5) rotate(90) scale(75.5 77)">
+<stop stop-color="white" stop-opacity="0.190982"/>
+<stop offset="1" stop-color="#E7E7E7"/>
+</radialGradient>
+<radialGradient id="paint3_radial_236_145" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(81 75.5) rotate(90) scale(75.5 77)">
+<stop stop-color="white" stop-opacity="0.190982"/>
+<stop offset="1" stop-color="#E7E7E7"/>
+</radialGradient>
+</defs>
+</svg>

@@ -6,7 +6,7 @@ const Projects = () => {
     return (
         <SectionPage>
             <SectionTitle>Expériences & Projets</SectionTitle>
-            <CardSkillList></CardSkillList>
+            <CardSkillList/>
         </SectionPage>
     )
 }
