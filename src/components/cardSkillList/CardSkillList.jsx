@@ -7,6 +7,9 @@ const CardSkillList = () => {
             <CardSkill>Site MMI</CardSkill>
             <CardSkill>Résaweb</CardSkill>
             <CardSkill>Yonnha</CardSkill>
+            <CardSkill>DataViz</CardSkill>
+            <CardSkill>Vovinam</CardSkill>
+            <CardSkill>Daft-Punk</CardSkill>
         </ul>
     )
 }

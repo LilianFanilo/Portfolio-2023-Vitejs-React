@@ -5,8 +5,8 @@
     column-gap: 10px;
     position: relative;
     margin: 0 auto;
-    font-size: 34px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 20px;
     -webkit-text-stroke: 1px black;
     color: white;
     z-index: 1;
@@ -41,12 +41,5 @@
         &::after {
             width: 0px;
         }
-    }
-}
-
-@media (max-width:768px){
-    .SkillTitle {
-        font-size: 26px;
-        line-height: 26px;
     }
 }

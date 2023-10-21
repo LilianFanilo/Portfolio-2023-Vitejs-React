@@ -1,8 +1,12 @@
 import s from './SectionPage.module.scss'
 
 const SectionPage = (props) => {
+
+    const SectionStyle = {
+        flexDirection : props.style
+    }
     return (
-      <section className={s.SectionPage}>
+      <section id='box' className={s.SectionPage} style={SectionStyle}>
         {props.children}
       </section>
     );

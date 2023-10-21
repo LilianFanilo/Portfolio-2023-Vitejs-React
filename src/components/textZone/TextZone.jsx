@@ -4,7 +4,9 @@ const TextZone = (props) => {
     return (
         <div className={s.TextZone}>
             <strong>{props.title}</strong>
+            <p>
             {props.children}
+            </p>
         </div>
     )
 }

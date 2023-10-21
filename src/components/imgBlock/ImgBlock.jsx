@@ -8,7 +8,9 @@ export const ImgBlock = ({imgWidth, imgHeight, imgURL , imgALT}) => {
         borderRadius: "10px",
         boxShadow: "inset 0 0 20px 0 rgba(0,0,0,0.4)",
         width: imgWidth,
-        height: imgHeight
+        height: imgHeight,
+        maxWidth: imgWidth,
+        maxHeight: imgHeight
       };
 
     return (
