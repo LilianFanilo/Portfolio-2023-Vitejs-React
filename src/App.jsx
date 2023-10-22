@@ -2,7 +2,7 @@ import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './screens/Home'
 import Resaweb from './screens/Resaweb'
-import DataViz from './screens/DataViz'
+import DataViz from './screens/Dataviz'
 import DaftPunk from './screens/DaftPunk'
 import Vovinam from './screens/Vovinam'
 
