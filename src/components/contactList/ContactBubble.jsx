@@ -1,11 +1,11 @@
 import s from './ContactList.module.scss'
 
 const ContactBubble = (props) => {
+
     return (
         <li className={s.ContactBubble}>
             <a href="">
-                <div>
-                </div>
+                <img src={props.img} alt="" />
             </a>
             <span>
                 {props.children}

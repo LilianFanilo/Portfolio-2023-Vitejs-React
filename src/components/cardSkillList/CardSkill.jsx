@@ -21,7 +21,7 @@ const CardSkill = (props) => {
                 trigger : '#gsap-cardSkill',
                 start: 'top center',
                 scrub: false,
-                markers : true
+                // markers : true
             }
         })
     }, [])

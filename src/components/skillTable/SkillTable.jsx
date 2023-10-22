@@ -50,7 +50,7 @@ const SkillTable = () => {
             trigger : el,
             start: 'top center',
             scrub: false,
-            markers : true
+            // markers : true
             }
         })
 

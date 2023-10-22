@@ -1,5 +1,6 @@
 import Button from "../components/button/Button"
 import ImgBlock from "../components/imgBlock/ImgBlock"
+import NavBar from "../components/navBar/NavBar"
 import SectionTitle from "../components/sectionTitle/SectionTitle"
 import SectionPage from "../components/sections/SectionPage"
 import SkillBubble from "../components/skillTable/skillBubbleLists/SkillBubble"
@@ -20,7 +21,8 @@ const DataViz = () => {
     );
     return (
         <>
-            <SectionPage style="column">
+            <NavBar/>
+            <SectionPage style="column" sectionPT ="40px">
                 <SectionTitle>Dataviz</SectionTitle>
                 <div className={s.SingleProject}>
                     <div>
