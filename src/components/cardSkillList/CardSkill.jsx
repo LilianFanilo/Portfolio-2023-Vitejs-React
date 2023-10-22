@@ -26,8 +26,13 @@ const CardSkill = (props) => {
         })
     }, [])
 
+    const cardStyle = {
+        background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(${props.img}), white`,
+        backgroundSize: `cover`,
+    };
+
     return (
-        <li id='gsap-cardSkill' className={s.CardSkill}>
+        <li id='gsap-cardSkill' className={s.CardSkill} style={cardStyle}>
             <a href={props.url} >
                 <h3>
                     {props.children}

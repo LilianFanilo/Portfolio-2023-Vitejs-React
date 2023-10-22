@@ -6,7 +6,7 @@ import s from './Formation.module.scss'
 
 const Formation = () => {
     return (
-        <SectionPage style="column">
+        <SectionPage id="formations" style="column">
             <SectionTitle>
                 Formations
             </SectionTitle>

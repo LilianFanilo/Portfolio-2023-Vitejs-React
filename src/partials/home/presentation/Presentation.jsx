@@ -6,7 +6,7 @@ import TextZone from "../../../components/textZone/TextZone"
 
 const Presentation = () => {
     return (
-        <SectionPage>
+        <SectionPage id='qui_suis_je'>
             <div>
                 <ImgBlock imgWidth="270px" imgHeight="307px" imgURL='./images/profil/photo-cv.jpg' imgALT=''/>
                 <SectionTitle>

@@ -8,7 +8,7 @@ const SectionPage = (props) => {
         flexDirection : props.style
     }
     return (
-      <section className={s.SectionPage} style={SectionStyle}>
+      <section id={props.id} className={s.SectionPage} style={SectionStyle}>
         {props.children}
       </section>
     );

@@ -1,3 +1,4 @@
+import NavBar from "../components/navBar/NavBar"
 import Contact from "../partials/home/contact/Contact"
 import Formation from "../partials/home/formation/Formation"
 import Introduction from "../partials/home/introduction/Introduction"
@@ -7,6 +8,7 @@ import Projects from "../partials/home/projects/Projects"
 const Home = () => {
     return (
         <>        
+            <NavBar/>
             <Introduction/>
             <Presentation/>
             <Formation/>

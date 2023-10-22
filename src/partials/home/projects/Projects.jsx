@@ -4,7 +4,7 @@ import SectionPage from "../../../components/sections/SectionPage"
 
 const Projects = () => {
     return (
-        <SectionPage style="column">
+        <SectionPage id="experiences_projects" style="column">
             <SectionTitle>Expériences & Projets</SectionTitle>
             <CardSkillList/>
         </SectionPage>

@@ -4,7 +4,7 @@ import SectionPage from "../../../components/sections/SectionPage"
 
 const Contact = () => {
     return (
-        <SectionPage style="column">
+        <SectionPage id="contact" style="column">
             <SectionTitle>
                 Me contacter
             </SectionTitle>

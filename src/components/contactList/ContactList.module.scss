@@ -21,6 +21,29 @@
     span {
         display: block;
         position: absolute;
+        width: max-content;
+        opacity: 0;
+        bottom: 0;
+        transition: all ease 0.5s;
+        pointer-events: none;
+        bottom: -15px;
+
         
+    }
+
+    &:hover {
+
+        a {
+            background-color: black;
+        }
+
+        span {
+            display: block;
+            position: absolute;
+            width: max-content;
+            opacity: 1;
+            bottom: -30px;
+
+        }
     }
 }
