@@ -3,12 +3,13 @@ import SectionTitle from "../../../components/sectionTitle/SectionTitle"
 import SectionPage from "../../../components/sections/SectionPage"
 import SkillTable from "../../../components/skillTable/SkillTable"
 import TextZone from "../../../components/textZone/TextZone"
+import s from "./Presentation.module.scss"
 
 const Presentation = () => {
     return (
-        <SectionPage id='qui_suis_je'>
-            <div>
-                <ImgBlock imgWidth="270px" imgHeight="307px" imgURL='./images/profil/photo-cv.jpg' imgALT=''/>
+        <SectionPage id='qui_suis_je' sectionPT="80px">
+            <div className={s.Presentation}>
+                <ImgBlock imgWidth="230px" imgHeight="307px" imgURL='./images/profil/photo-cv.jpg' imgALT=''/>
                 <SectionTitle>
                     Qui suis-je ?
                 </SectionTitle>

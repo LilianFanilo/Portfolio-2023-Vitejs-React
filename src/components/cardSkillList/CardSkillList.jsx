@@ -4,12 +4,12 @@ import s from './CardSkill.module.scss'
 const CardSkillList = () => {
     return (
         <ul className={s.CardSkillList}>
-            <CardSkill>Site MMI</CardSkill>
+            <CardSkill img='./images/projects/resaweb_card.jpg' >Site MMI</CardSkill>
             <CardSkill img='./images/projects/resaweb_card.jpg' url='/resaweb' >Résaweb</CardSkill>
-            <CardSkill>Yonnha</CardSkill>
-            <CardSkill>DataViz</CardSkill>
-            <CardSkill>Vovinam</CardSkill>
-            <CardSkill>Daft-Punk</CardSkill>
+            <CardSkill img='./images/projects/resaweb_card.jpg' >Yonnha</CardSkill>
+            <CardSkill img='./images/projects/dataviz_card.jpg' url='/dataviz' >DataViz</CardSkill>
+            <CardSkill img='./images/projects/vovinam_card.jpg' url='/vovinam' >Vovinam</CardSkill>
+            <CardSkill img='./images/projects/siteonepage_card.jpg' url='/daftpunk' >Daft-Punk</CardSkill>
         </ul>
     )
 }

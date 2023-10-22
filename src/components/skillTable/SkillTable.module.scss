@@ -1,4 +1,7 @@
 .SkillTable {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
     position: relative;
     width: 345px;
     height: 100%;

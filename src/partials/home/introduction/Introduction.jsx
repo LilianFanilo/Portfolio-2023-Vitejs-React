@@ -5,7 +5,7 @@ import s from './Introduction.module.scss';
 
 const Introduction = () => {
 return (
-    <SectionPage style="column">
+    <SectionPage style="column" sectionH = "100vh">
         <div className={s.Introduction}>
             <div className={s.IntroductionTitle}>
                 <h1>

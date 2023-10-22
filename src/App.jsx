@@ -2,6 +2,9 @@ import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './screens/Home'
 import Resaweb from './screens/Resaweb'
+import DataViz from './screens/DataViz'
+import DaftPunk from './screens/DaftPunk'
+import Vovinam from './screens/Vovinam'
 
 const router = createBrowserRouter([
   {
@@ -11,6 +14,18 @@ const router = createBrowserRouter([
   {
     path : '/resaweb',
     element : <Resaweb/>
+  },
+  {
+    path : '/dataviz',
+    element : <DataViz/>
+  },
+  {
+    path : '/daftpunk',
+    element : <DaftPunk/>
+  },
+  {
+    path : '/vovinam',
+    element : <Vovinam/>
   },
 ])
 

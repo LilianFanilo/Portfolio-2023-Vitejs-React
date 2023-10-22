@@ -6,7 +6,7 @@ import s from './Formation.module.scss'
 
 const Formation = () => {
     return (
-        <SectionPage id="formations" style="column">
+        <SectionPage id="formations" style="column" sectionH="90vh" sectionPT ="40px">
             <SectionTitle>
                 Formations
             </SectionTitle>
@@ -20,7 +20,7 @@ const Formation = () => {
                     </TextZone>
                 </div>
                 <div>
-                    <ImgBlock imgWidth="100%" imgHeight="95%" imgURL='./images/formation/iut_img.jpg' imgALT=''/>
+                    <ImgBlock imgWidth="100%" imgHeight="100%" imgURL='./images/formation/iut_img.jpg' imgALT=''/>
                 </div>
             </div>
         </SectionPage>

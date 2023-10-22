@@ -3,14 +3,15 @@ import s from './ImgBlock.module.scss'
 export const ImgBlock = ({imgWidth, imgHeight, imgURL , imgALT}) => {
 
     const Imgstyle = {
+        position : "relative",
         margin: "0 auto",
         overflow: "hidden",
         borderRadius: "10px",
         boxShadow: "inset 0 0 20px 0 rgba(0,0,0,0.4)",
         width: imgWidth,
         height: imgHeight,
-        maxWidth: imgWidth,
-        maxHeight: imgHeight
+        minWidth: imgWidth,
+        minHeight: imgHeight,
       };
 
     return (
