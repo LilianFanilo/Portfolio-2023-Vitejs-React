@@ -1,22 +1,36 @@
 .Formation {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
     gap: 25px;
+
+    @media (min-width : 769px) {
+        grid-template-columns: repeat(2,1fr);
+
+        & > div:nth-child(1){
+            grid-column: 1/2;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
     
+        & > div:nth-child(2){
+            position: relative;
+            grid-column: 2/3;
+        }
+    }
+
     @media (max-width : 768px) {
-        display: flex;
-        flex-direction: column;
-    }
+        grid-template-rows: repeat(2,1fr);
 
-    & > div:nth-child(1){
-        grid-column: 1/2;
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-    }
-
-    & > div:nth-child(2){
-        position: relative;
-        grid-column: 2/3;
+        & > div:nth-child(1){
+            grid-row: 1/2;
+            display: flex;
+            flex-direction: column;
+            row-gap: 20px;
+        }
+    
+        & > div:nth-child(2){
+            position: relative;
+            grid-row: 2/3;
+        }
     }
 }

@@ -4,7 +4,7 @@ const SectionPage = (props) => {
 
     const SectionStyle = {
       flexDirection : props.style,
-      Height : props.sectionH,
+      height : props.sectionH,
       paddingTop : props.sectionPT,
     }
 
