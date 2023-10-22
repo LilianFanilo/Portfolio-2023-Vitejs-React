@@ -2,7 +2,7 @@ import s from './SkillBubble.module.scss';
 
 const SkillBubble = (props) => {
     return (
-        <li className={s.SkillBubble}>
+        <li id='gsap-skillBubble' className={s.SkillBubble}>
             <span>{props.children}</span>
         </li>
     )

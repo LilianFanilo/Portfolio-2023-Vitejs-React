@@ -19,7 +19,7 @@ const DesignBubble = () => {
     );
 
     return (
-        <div>
+        <div className="gsap-skill-list">
             <SkillTitle>
                 Design
             </SkillTitle>

@@ -14,7 +14,7 @@ const OfficeBubble = () => {
     );
 
     return (
-        <div>
+        <div className="gsap-skill-list">
             <SkillTitle>
                 Bureautique
             </SkillTitle>

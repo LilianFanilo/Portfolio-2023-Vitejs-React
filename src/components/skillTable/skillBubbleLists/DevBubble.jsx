@@ -20,7 +20,7 @@ const DevBubble = () => {
     );
 
     return (
-        <div>
+        <div className="gsap-skill-list">
             <SkillTitle>
                 Développement web
             </SkillTitle>
