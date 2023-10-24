@@ -4,7 +4,7 @@ const ContactBubble = (props) => {
 
     return (
         <li className={s.ContactBubble}>
-            <a href="">
+            <a href={props.url} target='_blank'>
                 <img src={props.img} alt="" />
             </a>
             <span>

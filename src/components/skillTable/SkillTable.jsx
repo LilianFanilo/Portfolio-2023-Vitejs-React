@@ -76,7 +76,7 @@ const SkillTable = () => {
             <DevBubble/>
             <DesignBubble/>
             <OfficeBubble/>
-            <Button>
+            <Button url="images/cv/CV-LilianPeuron-Alternance-2023-2024-V2.pdf" download>
                 Télécharger mon CV
             </Button>
         </div>
