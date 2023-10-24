@@ -45,7 +45,7 @@ const SkillTable = () => {
             duration: 0.9,
             ease: "power3.out",
             stagger: 0.5,
-            delay : 2,
+            delay : 1,
             scrollTrigger : {
             trigger : el,
             start: 'top center',
@@ -65,9 +65,9 @@ const SkillTable = () => {
             y : 0,
             rotation : 0,
             duration: 0.9,
-            delay : 2,
+            delay : 1,
             ease: "back.out(1.7)",
-            stagger: 0.2,
+            stagger: 0.1,
         })
     }, [])
 
