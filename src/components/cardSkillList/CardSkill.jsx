@@ -1,31 +1,31 @@
 import s from './CardSkill.module.scss'
-import gsap from 'gsap'
-import ScrollTrigger from "gsap/ScrollTrigger"
-import { useRef, useEffect } from "react"
+// import gsap from 'gsap'
+// import ScrollTrigger from "gsap/ScrollTrigger"
+// import { useRef, useEffect } from "react"
 
-gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(ScrollTrigger);
 
 const CardSkill = (props) => {
-    const gsapCard = useRef(null);
+    // const gsapCard = useRef(null);
 
-    useEffect(() => {
-        const el = gsapCard.current;
+    // useEffect(() => {
+    //     const el = gsapCard.current;
 
-        gsap.fromTo( el ,{
-            opacity : 0,
-            y : 50
-        },
-        {
-            opacity : 1,
-            y : 0,
-            duration : 1,
-            scrollTrigger : {
-                trigger : el ,
-                start: 'top center',
-                markers : true
-            }
-        })
-    }, [])
+    //     gsap.fromTo( el ,{
+    //         opacity : 0,
+    //         y : 50
+    //     },
+    //     {
+    //         opacity : 1,
+    //         y : 0,
+    //         duration : 1,
+    //         scrollTrigger : {
+    //             trigger : el ,
+    //             start: 'top center',
+    //             markers : true
+    //         }
+    //     })
+    // }, [])
 
     const cardStyle = {
         background: `linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(${props.img}), white`,
@@ -33,7 +33,7 @@ const CardSkill = (props) => {
     };
 
     return (
-        <li ref={gsapCard} className={s.CardSkill} style={cardStyle}>
+        <li className={s.CardSkill} style={cardStyle}>
             <a href={props.url} >
                 <h3>
                     {props.children}
