@@ -9,8 +9,8 @@ const OfficeBubble = () => {
         "Notion"
     ]
 
-    const officeList = officeSkills.map((officeSkill) =>
-        <SkillBubble>{officeSkill}</SkillBubble>
+    const officeList = officeSkills.map((officeSkill, i) =>
+        <SkillBubble key={i}>{officeSkill}</SkillBubble>
     );
 
     return (

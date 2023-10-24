@@ -6,22 +6,23 @@ import { useRef, useEffect } from "react"
 gsap.registerPlugin(ScrollTrigger);
 
 const CardSkill = (props) => {
+    const gsapCard = useRef(null);
 
     useEffect(() => {
-        gsap.fromTo('#gsap-cardSkill',{
+        const el = gsapCard.current;
+
+        gsap.fromTo( el ,{
             opacity : 0,
-            y : 30,
+            y : 50
         },
         {
             opacity : 1,
             y : 0,
-            duration: 0.5,
-            stagger: 0.5,
+            duration : 1,
             scrollTrigger : {
-                trigger : '#gsap-cardSkill',
+                trigger : el ,
                 start: 'top center',
-                scrub: false,
-                // markers : true
+                markers : true
             }
         })
     }, [])
@@ -32,7 +33,7 @@ const CardSkill = (props) => {
     };
 
     return (
-        <li id='gsap-cardSkill' className={s.CardSkill} style={cardStyle}>
+        <li ref={gsapCard} className={s.CardSkill} style={cardStyle}>
             <a href={props.url} >
                 <h3>
                     {props.children}

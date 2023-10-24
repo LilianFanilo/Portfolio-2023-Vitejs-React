@@ -14,8 +14,8 @@ const DesignBubble = () => {
         "Canva"
     ]
 
-    const designList = designSkills.map((designSkill) =>
-        <SkillBubble>{designSkill}</SkillBubble>
+    const designList = designSkills.map((designSkill, i) =>
+        <SkillBubble key={i}>{designSkill}</SkillBubble>
     );
 
     return (

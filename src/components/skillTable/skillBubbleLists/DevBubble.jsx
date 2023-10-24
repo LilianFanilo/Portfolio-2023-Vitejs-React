@@ -15,8 +15,8 @@ const DevBubble = () => {
         "Git"
     ]
 
-    const devList = devSkills.map((devSkill) =>
-        <SkillBubble>{devSkill}</SkillBubble>
+    const devList = devSkills.map((devSkill, i) =>
+        <SkillBubble key={i}>{devSkill}</SkillBubble>
     );
 
     return (
