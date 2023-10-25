@@ -27,7 +27,7 @@ const CardSkillList = () => {
             scrollTrigger : {
                 trigger : el ,
                 start: 'top center',
-                markers : true
+                // markers : true
             }
         })
     }, [])
