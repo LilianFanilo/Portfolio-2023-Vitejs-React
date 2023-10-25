@@ -9,6 +9,7 @@ import Interview from './screens/Interview'
 import Peexeo from './screens/Peexeo'
 import Yonnha from './screens/Yonnha'
 import Campagne from './screens/Campagne'
+import Chat from './screens/Chat'
 
 const router = createBrowserRouter([
   {
@@ -46,6 +47,10 @@ const router = createBrowserRouter([
   {
     path : '/campagne',
     element : <Campagne/>
+  },
+  {
+    path : '/chat',
+    element : <Chat/>
   },
 ])
 

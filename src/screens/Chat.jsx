@@ -11,7 +11,7 @@ import s from './SingleProject.module.scss'
 import gsap from 'gsap'
 import { useRef, useEffect } from "react"
 
-const DataViz = () => {
+const Chat = () => {
 
     useEffect(() => {
         const tl = gsap.timeline()
@@ -42,8 +42,9 @@ const DataViz = () => {
 
     const projectSkills = [
         "HTML5",
-        "CSS3",
-        "D3.js"
+        "CSS3/SASS",
+        "Next.js",
+        "GSAP",
     ]
 
     const projectList = projectSkills.map((projectSkill) =>
@@ -53,23 +54,23 @@ const DataViz = () => {
         <>
             <NavBar/>
             <SectionPage style="column" sectionPT ="40px">
-                <SectionTitle>Dataviz</SectionTitle>
+                <SectionTitle>Chat - Next.js</SectionTitle>
                 <div className={s.SingleProject}>
                     <div id="gsap_left_project">
-                        <ImgBlock imgWidth="100%" imgHeight="100%" imgURL='./images/projects/dataviz_img.png'/>
+                        <ImgBlock imgHeight="100%" imgURL='./images/projects/coming-soon_card.jpg'/>
                     </div>
                     <div id="gsap_right_project">
                         <TextZone title="Objectif">
-                            Création d’un site de visualisation graphique de données (travail d’équipe 3 personnes).
+                            Production d'une interview pour la médiathèque de la ferme Dubuisson (travail d'équipe 4 personnes).
                         </TextZone>
                         <TextZone title="Rôle">
-                            réalisation du graphique, implémentation des données et d'une fonctionnalité permettant de zoomer et de parcourir le graphique.
+                            Participation à la préparation, au tournage, au montage et à la publication sur Internet.
                         </TextZone>
                         <div className={s.SingleProjectList}>
                             <SkillTitle>Outils utilisés</SkillTitle>
                             <ul>{projectList}</ul>
                         </div>
-                        <Button url="https://lilianfanilo.github.io/DataViz/" new_tab>Voir le site</Button>
+                        <Button url="https://chat-nextjs-deploy-three.vercel.app/" new_tab>Voir le site</Button>
                     </div>
                 </div>
             </SectionPage>
@@ -78,4 +79,4 @@ const DataViz = () => {
     )
 }
 
-export default DataViz
+export default Chat
