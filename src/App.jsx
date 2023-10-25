@@ -6,6 +6,7 @@ import DataViz from './screens/Dataviz'
 import DaftPunk from './screens/DaftPunk'
 import Vovinam from './screens/Vovinam'
 import Interview from './screens/Interview'
+import Peexeo from './screens/Peexeo'
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
   {
     path : '/interview',
     element : <Interview/>
+  },
+  {
+    path : '/peexeo',
+    element : <Peexeo/>
   },
 ])
 

@@ -25,7 +25,7 @@ return (
                 </h1>
             </div>
             <ScrollCTA/>
-            <q>Ne reste pas là, continue de scroller !</q>
+            <q>Bienvenue sur mon portfolio ! <br /> Je vous laisse l'explorer en scrollant ou en utilisant le menu !</q>
         </div>
     </SectionPage>
 );
