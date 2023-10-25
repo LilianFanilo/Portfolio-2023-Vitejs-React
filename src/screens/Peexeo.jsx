@@ -71,7 +71,7 @@ const Peexeo = () => {
                         <ImgBlock imgHeight="100%" imgURL='./images/projects/peexeo-bg.png'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                             Lors de mon stage de 2ème année de BUT, j'ai eu pour mission de participer à la refonte du site de formation de l'agence. L’objectif a été de refaire entièrement le site avec WordPress en développant un thème personnalisé à l’aide de l’extension ACF et en se conformant à la nouvelle identité de marque.
                         </TextZone>
                         <TextZone>

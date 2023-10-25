@@ -59,10 +59,10 @@ const DataViz = () => {
                         <ImgBlock imgWidth="100%" imgHeight="100%" imgURL='./images/projects/dataviz_img.png'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                             Création d’un site de visualisation graphique de données (travail d’équipe 3 personnes).
                         </TextZone>
-                        <TextZone title="Rôle">
+                        <TextZone title="Rôle:">
                             réalisation du graphique, implémentation des données et d'une fonctionnalité permettant de zoomer et de parcourir le graphique.
                         </TextZone>
                         <div className={s.SingleProjectList}>

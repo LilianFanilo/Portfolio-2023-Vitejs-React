@@ -58,7 +58,7 @@ const Resaweb = () => {
                         <ImgBlock imgHeight="100%" imgURL='./images/projects/resaweb_img.PNG'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                             Création d'un site de réservation de salles de classe.
                         </TextZone>
                         <div className={s.SingleProjectList}>

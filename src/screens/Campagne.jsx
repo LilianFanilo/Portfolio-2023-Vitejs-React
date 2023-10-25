@@ -58,7 +58,7 @@ const Campagne = () => {
                         <ImgBlock imgHeight="100%" imgURL='./images/projects/campInstImg.jpg'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                         En lien avec notre voyage à Londres de deuxième année du BUT MMI, nous avions eu pour projet de réaliser une campagne publicitaire d’un monument  londonien. Nous devions réaliser des designs d’affiches et de bannières sous différents formats ainsi que le design de la page d’accueil du site de réservation au format ordinateur, tablette et smartphone.
                         </TextZone>
                         <TextZone>

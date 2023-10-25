@@ -58,7 +58,7 @@ const DaftPunk = () => {
                         <ImgBlock imgHeight="100%" imgURL='./images/projects/siteonepage_img.PNG'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                             Création d'un site sous WordPress de A à Z.
                         </TextZone>
                         <div className={s.SingleProjectList}>

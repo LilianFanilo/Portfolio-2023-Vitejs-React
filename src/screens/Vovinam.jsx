@@ -57,10 +57,10 @@ const Vovinam = () => {
                         <ImgBlock imgWidth="100%" imgHeight="100%" imgURL='./images/projects/vovinam_img.jpg'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                             Réalisation d'une vidéo résumé d'environ 7 mn sur l'ensemble de l'évènement (installation, épreuves et grande finale).
                         </TextZone>
-                        <TextZone title="Rôle">
+                        <TextZone title="Rôle:">
                             Sélection et insertion des clips, localisation des transitions.
                         </TextZone>
                         <div className={s.SingleProjectList}>

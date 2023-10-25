@@ -57,10 +57,10 @@ const Interview = () => {
                         <ImgBlock imgHeight="100%" imgURL='./images/projects/interview_img.png'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                             Production d'une interview pour la médiathèque de la ferme Dubuisson (travail d'équipe 4 personnes).
                         </TextZone>
-                        <TextZone title="Rôle">
+                        <TextZone title="Rôle:">
                             Participation à la préparation, au tournage, au montage et à la publication sur Internet.
                         </TextZone>
                         <div className={s.SingleProjectList}>

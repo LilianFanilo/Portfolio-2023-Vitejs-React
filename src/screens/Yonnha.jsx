@@ -72,10 +72,10 @@ const Yonnha = () => {
                         <ImgBlock imgHeight="100%" imgURL='./images/projects/yonnha.jpg'/>
                     </div>
                     <div id="gsap_right_project">
-                        <TextZone title="Objectif">
+                        <TextZone title="Objectif:">
                         Projet de 2ème année : création d’une agence qui aurait pour objectif d’imaginer une exposition sur l’art ou la science - Thème choisi : l’impressionnisme, travail d’équipe 6 personnes.
                         </TextZone>
-                        <TextZone title="Rôle">
+                        <TextZone title="Rôle:">
                         Durant ce projet, j'ai réalisé un site de réservation de l'exposition avec comme contrainte d'avoir une partie du site codé en Reactjs. Étant chargé de m'occuper principalement du back, j'ai décidé de réaliser le back-office du site en Reactjs.
                         </TextZone>
                         <div className={s.SingleProjectList}>
