@@ -34,8 +34,9 @@ const CardSkillList = () => {
 
     return (
         <ul ref={gsapCard} className={s.CardSkillList}>
-            <CardSkill img='./images/cards_projects/card_img_resaweb.jpg' url='/peexeo' >Peexeo</CardSkill>
-            <CardSkill img='./images/cards_projects/card_img_resaweb.jpg' >Yonnha</CardSkill>
+            <CardSkill img='./images/projects/peexeo-bg.png' url='/peexeo' >Peexeo</CardSkill>
+            <CardSkill img='./images/projects/yonnha.jpg' url='/yonnha' >Yonnha</CardSkill>
+            <CardSkill img='./images/projects/campInstImg.jpg' url='/campagne' >Campagne</CardSkill>
             <CardSkill img='./images/cards_projects/card_img_dataviz.jpg' url='/dataviz' >DataViz</CardSkill>
             <CardSkill img='./images/cards_projects/card_img_resaweb.jpg' url='/resaweb' >Résaweb</CardSkill>
             <CardSkill img='./images/cards_projects/card_img_vovinam.jpg' url='/vovinam' >Vovinam</CardSkill>

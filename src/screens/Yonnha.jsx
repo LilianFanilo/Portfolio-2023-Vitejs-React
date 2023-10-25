@@ -11,7 +11,7 @@ import s from './SingleProject.module.scss'
 import gsap from 'gsap'
 import { useRef, useEffect } from "react"
 
-const Peexeo = () => {
+const Yonnha = () => {
 
     useEffect(() => {
         const tl = gsap.timeline()
@@ -42,47 +42,48 @@ const Peexeo = () => {
 
     const projectSkills = [
         "HTML5",
-        "CSS3/SASS",
+        "CSS3",
         "Javascript",
+        "Reactjs",
         "PHP",
     ]
 
-    const projectSkills2 = [
-        "WordPress",
-        "WooCommerce",
-        "ACF",
-    ]
+    // const projectSkills2 = [
+    //     "WordPress",
+    //     "WooCommerce",
+    //     "ACF",
+    // ]
 
     const projectList = projectSkills.map((projectSkill) =>
         <SkillBubble>{projectSkill}</SkillBubble>
     );
 
-    const projectList2 = projectSkills2.map((projectSkill2) =>
-        <SkillBubble>{projectSkill2}</SkillBubble>
-    );
+    // const projectList2 = projectSkills2.map((projectSkill2) =>
+    //     <SkillBubble>{projectSkill2}</SkillBubble>
+    // );
 
     return (
         <>
             <NavBar/>
             <SectionPage style="column" sectionPT ="40px">
-                <SectionTitle>Refonte de site : Peexeo</SectionTitle>
+                <SectionTitle>Site de réservation : Yonnha</SectionTitle>
                 <div className={s.SingleProject}>
                     <div id="gsap_left_project">
-                        <ImgBlock imgHeight="100%" imgURL='./images/projects/peexeo-bg.png'/>
+                        <ImgBlock imgHeight="100%" imgURL='./images/projects/yonnha.jpg'/>
                     </div>
                     <div id="gsap_right_project">
                         <TextZone title="Objectif">
-                            Lors de mon stage de 2ème année de BUT, j'ai eu pour mission de participer à la refonte du site de formation de l'agence. L’objectif a été de refaire entièrement le site avec WordPress en développant un thème personnalisé à l’aide de l’extension ACF et en se conformant à la nouvelle identité de marque.
+                        Projet de 2ème année : création d’une agence qui aurait pour objectif d’imaginer une exposition sur l’art ou la science - Thème choisi : l’impressionnisme, travail d’équipe 6 personnes.
                         </TextZone>
-                        <TextZone>
-                            Le nouveau site est plus attractif, avec une lisibilité et une rapidité de navigation améliorées et l’extension Woocommerce a été utilisée pour créer une boutique en ligne.
+                        <TextZone title="Rôle">
+                        Durant ce projet, j'ai réalisé un site de réservation de l'exposition avec comme contrainte d'avoir une partie du site codé en Reactjs. Étant chargé de m'occuper principalement du back, j'ai décidé de réaliser le back-office du site en Reactjs.
                         </TextZone>
                         <div className={s.SingleProjectList}>
                             <SkillTitle>Outils utilisés</SkillTitle>
                             <ul>{projectList}</ul>
-                            <ul>{projectList2}</ul>
+                            {/* <ul>{projectList2}</ul> */}
                         </div>
-                        <Button url="https://formations.peexeo.com/" new_tab>Voir le site</Button>
+                        <Button url="https://reservation.yonnha.fr/" new_tab>Voir le site</Button>
                     </div>
                 </div>
             </SectionPage>
@@ -91,4 +92,4 @@ const Peexeo = () => {
     )
 }
 
-export default Peexeo
+export default Yonnha

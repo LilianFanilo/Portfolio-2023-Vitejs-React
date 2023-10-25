@@ -7,6 +7,8 @@ import DaftPunk from './screens/DaftPunk'
 import Vovinam from './screens/Vovinam'
 import Interview from './screens/Interview'
 import Peexeo from './screens/Peexeo'
+import Yonnha from './screens/Yonnha'
+import Campagne from './screens/Campagne'
 
 const router = createBrowserRouter([
   {
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
   {
     path : '/peexeo',
     element : <Peexeo/>
+  },
+  {
+    path : '/yonnha',
+    element : <Yonnha/>
+  },
+  {
+    path : '/campagne',
+    element : <Campagne/>
   },
 ])
 

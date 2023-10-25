@@ -11,7 +11,7 @@ import s from './SingleProject.module.scss'
 import gsap from 'gsap'
 import { useRef, useEffect } from "react"
 
-const Peexeo = () => {
+const Campagne = () => {
 
     useEffect(() => {
         const tl = gsap.timeline()
@@ -41,48 +41,34 @@ const Peexeo = () => {
     }, [])
 
     const projectSkills = [
-        "HTML5",
-        "CSS3/SASS",
-        "Javascript",
-        "PHP",
-    ]
-
-    const projectSkills2 = [
-        "WordPress",
-        "WooCommerce",
-        "ACF",
+        "Figma",
     ]
 
     const projectList = projectSkills.map((projectSkill) =>
         <SkillBubble>{projectSkill}</SkillBubble>
     );
 
-    const projectList2 = projectSkills2.map((projectSkill2) =>
-        <SkillBubble>{projectSkill2}</SkillBubble>
-    );
-
     return (
         <>
             <NavBar/>
             <SectionPage style="column" sectionPT ="40px">
-                <SectionTitle>Refonte de site : Peexeo</SectionTitle>
+                <SectionTitle>Campagne institutionnelle</SectionTitle>
                 <div className={s.SingleProject}>
                     <div id="gsap_left_project">
-                        <ImgBlock imgHeight="100%" imgURL='./images/projects/peexeo-bg.png'/>
+                        <ImgBlock imgHeight="100%" imgURL='./images/projects/campInstImg.jpg'/>
                     </div>
                     <div id="gsap_right_project">
                         <TextZone title="Objectif">
-                            Lors de mon stage de 2ème année de BUT, j'ai eu pour mission de participer à la refonte du site de formation de l'agence. L’objectif a été de refaire entièrement le site avec WordPress en développant un thème personnalisé à l’aide de l’extension ACF et en se conformant à la nouvelle identité de marque.
+                        En lien avec notre voyage à Londres de deuxième année du BUT MMI, nous avions eu pour projet de réaliser une campagne publicitaire d’un monument  londonien. Nous devions réaliser des designs d’affiches et de bannières sous différents formats ainsi que le design de la page d’accueil du site de réservation au format ordinateur, tablette et smartphone.
                         </TextZone>
                         <TextZone>
-                            Le nouveau site est plus attractif, avec une lisibilité et une rapidité de navigation améliorées et l’extension Woocommerce a été utilisée pour créer une boutique en ligne.
+                        Mon choix s’est porté sur “The Clink Prison Museum” un musée construit sur le site d’origine du “Clink Prison”, la prison la plus vieille d'Angleterre. J’avais choisi cet endroit horrifique car notre voyage s’était déroulé pendant la semaine d’Halloween.
                         </TextZone>
                         <div className={s.SingleProjectList}>
                             <SkillTitle>Outils utilisés</SkillTitle>
                             <ul>{projectList}</ul>
-                            <ul>{projectList2}</ul>
                         </div>
-                        <Button url="https://formations.peexeo.com/" new_tab>Voir le site</Button>
+                        <Button url="https://www.figma.com/file/pV3vC4J4IZwWWHrcXMh3nD/Mockup-Campagne-institutionnel?type=design&node-id=0%3A1&mode=design&t=cilIhBxhdTZyQhvN-1" new_tab>Voir le projet</Button>
                     </div>
                 </div>
             </SectionPage>
@@ -91,4 +77,4 @@ const Peexeo = () => {
     )
 }
 
-export default Peexeo
+export default Campagne
