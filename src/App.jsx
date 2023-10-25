@@ -5,6 +5,7 @@ import Resaweb from './screens/Resaweb'
 import DataViz from './screens/Dataviz'
 import DaftPunk from './screens/DaftPunk'
 import Vovinam from './screens/Vovinam'
+import Interview from './screens/Interview'
 
 const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
   {
     path : '/vovinam',
     element : <Vovinam/>
+  },
+  {
+    path : '/interview',
+    element : <Interview/>
   },
 ])
 

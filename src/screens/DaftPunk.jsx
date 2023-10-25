@@ -65,7 +65,7 @@ const DaftPunk = () => {
                             <SkillTitle>Outils utilisés</SkillTitle>
                             <ul>{projectList}</ul>
                         </div>
-                        <Button>Voir le site</Button>
+                        <Button url="https://siteonepage.peuron.butmmi.o2switch.site/" new_tab>Voir le site</Button>
                     </div>
                 </div>
             </SectionPage>

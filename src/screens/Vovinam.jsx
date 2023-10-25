@@ -67,7 +67,7 @@ const Vovinam = () => {
                             <SkillTitle>Outils utilisés</SkillTitle>
                             <ul>{projectList}</ul>
                         </div>
-                        <Button>Voir le site</Button>
+                        <Button url="https://www.youtube.com/watch?v=PLBAAe_e2Og" new_tab>Voir la vidéo</Button>
                     </div>
                 </div>
             </SectionPage>

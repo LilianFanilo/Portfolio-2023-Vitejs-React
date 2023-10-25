@@ -11,7 +11,7 @@ import s from './SingleProject.module.scss'
 import gsap from 'gsap'
 import { useRef, useEffect } from "react"
 
-const Resaweb = () => {
+const Interview = () => {
 
     useEffect(() => {
         const tl = gsap.timeline()
@@ -41,8 +41,7 @@ const Resaweb = () => {
     }, [])
 
     const projectSkills = [
-        "Suite",
-        "Notion"
+        "Premiere Pro",
     ]
 
     const projectList = projectSkills.map((projectSkill) =>
@@ -52,20 +51,23 @@ const Resaweb = () => {
         <>
             <NavBar/>
             <SectionPage style="column" sectionPT ="40px">
-                <SectionTitle>Résaweb</SectionTitle>
+                <SectionTitle>Interview</SectionTitle>
                 <div className={s.SingleProject}>
                     <div id="gsap_left_project">
-                        <ImgBlock imgHeight="100%" imgURL='./images/projects/resaweb_img.PNG'/>
+                        <ImgBlock imgHeight="100%" imgURL='./images/projects/interview_img.png'/>
                     </div>
                     <div id="gsap_right_project">
                         <TextZone title="Objectif">
-                            Création d'un site de réservation de salles de classe.
+                            Production d'une interview pour la médiathèque de la ferme Dubuisson (travail d'équipe 4 personnes).
+                        </TextZone>
+                        <TextZone title="Rôle">
+                            Participation à la préparation, au tournage, au montage et à la publication sur Internet.
                         </TextZone>
                         <div className={s.SingleProjectList}>
                             <SkillTitle>Outils utilisés</SkillTitle>
                             <ul>{projectList}</ul>
                         </div>
-                        <Button url="https://resaweb.peuron.butmmi.o2switch.site" new_tab>Voir le site</Button>
+                        <Button url="https://www.youtube.com/watch?v=eLD-5Y8Dkoc" new_tab>Voir la vidéo</Button>
                     </div>
                 </div>
             </SectionPage>
@@ -74,4 +76,4 @@ const Resaweb = () => {
     )
 }
 
-export default Resaweb
+export default Interview
