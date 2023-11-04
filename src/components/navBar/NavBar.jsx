@@ -1,6 +1,7 @@
 import s from './NavBar.module.scss'
 import gsap from 'gsap'
 import { useRef,useEffect } from 'react'
+import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
 
@@ -36,7 +37,10 @@ const NavBar = () => {
                     {
                         linkNav.map((link,i) => {
                         return (
-                            <li id='gsap_nav' key={i}><a href={link} key={i}>{textNav[i]}</a></li>
+                            // <li id='gsap_nav' key={i}><a href={link} key={i}>{textNav[i]}</a></li>
+                            <li id='gsap_nav' key={i}>
+                                <HashLink to={link} key={i}>{textNav[i]}</HashLink>
+                            </li>
                         )
                     })
                     }
