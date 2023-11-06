@@ -9,7 +9,7 @@ const Presentation = () => {
     return (
         <SectionPage id='qui_suis_je' sectionPT="80px">
             <div className={s.Presentation}>
-                <ImgBlock imgWidth="230px" imgHeight="307px" imgURL='./images/profil/photo-cv.jpg' imgALT=''/>
+                <ImgBlock imgWidth="230px" imgHeight="307px" imgURL='./images/profil/photo-cv-v2.jpg' imgALT=''/>
                 <SectionTitle>
                     Qui suis-je ?
                 </SectionTitle>
