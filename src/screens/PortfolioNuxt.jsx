@@ -58,7 +58,7 @@ const PortfolioNuxt = () => {
           <div id="gsap_left_project">
             <ImgBlock
               imgHeight="100%"
-              imgURL="./images/projects/chat-nextjs.png"
+              imgURL="./images/projects/portfolionuxt.png"
             />
           </div>
           <div id="gsap_right_project">

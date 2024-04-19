@@ -36,13 +36,13 @@ const CardSkillList = () => {
   return (
     <ul ref={gsapCard} className={s.CardSkillList}>
       <CardSkill
-        img="./images/cards_projects/card_chat-nextjs.png"
+        img="./images/cards_projects/card_portfolionuxt.png"
         url="/portfolio_nuxt"
       >
         Porfolio Nuxt
       </CardSkill>
       <CardSkill
-        img="./images/cards_projects/card_chat-nextjs.png"
+        img="./images/cards_projects/audiovisualiser-card.png"
         url="/audiovisualiser"
       >
         Lecteur Audiovisuel 3D
