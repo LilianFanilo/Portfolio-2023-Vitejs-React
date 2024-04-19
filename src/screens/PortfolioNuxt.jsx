@@ -11,7 +11,7 @@ import s from "./SingleProject.module.scss";
 import gsap from "gsap";
 import { useRef, useEffect } from "react";
 
-const Resaweb = () => {
+const PortfolioNuxt = () => {
   useEffect(() => {
     const tl = gsap.timeline();
 
@@ -44,7 +44,7 @@ const Resaweb = () => {
     );
   }, []);
 
-  const projectSkills = ["Suite", "Notion"];
+  const projectSkills = ["Nuxt3", "TypeScript", "SCSS", "GSAP", "Three.js"];
 
   const projectList = projectSkills.map((projectSkill) => (
     <SkillBubble>{projectSkill}</SkillBubble>
@@ -53,23 +53,26 @@ const Resaweb = () => {
     <>
       <NavBar />
       <SectionPage style="column" sectionPT="40px">
-        <SectionTitle>Résaweb</SectionTitle>
+        <SectionTitle>Porfolio Nuxt - Coming Soon !</SectionTitle>
         <div className={s.SingleProject}>
           <div id="gsap_left_project">
             <ImgBlock
               imgHeight="100%"
-              imgURL="./images/projects/resaweb_img.PNG"
+              imgURL="./images/projects/chat-nextjs.png"
             />
           </div>
           <div id="gsap_right_project">
             <TextZone title="Objectif:">
-              Création d'un site de réservation de salles de classe.
+              Réalisation d'un nouveau Portfolio en adéquation avec mes
+              nouvelles compétences.
             </TextZone>
             <div className={s.SingleProjectList}>
               <SkillTitle>Outils utilisés</SkillTitle>
               <ul>{projectList}</ul>
             </div>
-            {/* <Button url="https://resaweb.peuron.butmmi.o2switch.site" new_tab>Voir le site</Button> */}
+            {/* <Button url="https://chat-nextjs-insta.vercel.app/" new_tab>
+              Voir le site
+            </Button> */}
           </div>
         </div>
       </SectionPage>
@@ -78,4 +81,4 @@ const Resaweb = () => {
   );
 };
 
-export default Resaweb;
+export default PortfolioNuxt;

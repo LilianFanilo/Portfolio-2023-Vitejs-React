@@ -11,7 +11,7 @@ import s from "./SingleProject.module.scss";
 import gsap from "gsap";
 import { useRef, useEffect } from "react";
 
-const Resaweb = () => {
+const Audiovisualiser = () => {
   useEffect(() => {
     const tl = gsap.timeline();
 
@@ -44,7 +44,7 @@ const Resaweb = () => {
     );
   }, []);
 
-  const projectSkills = ["Suite", "Notion"];
+  const projectSkills = ["React.js", "Three.js", "GSAP"];
 
   const projectList = projectSkills.map((projectSkill) => (
     <SkillBubble>{projectSkill}</SkillBubble>
@@ -53,23 +53,28 @@ const Resaweb = () => {
     <>
       <NavBar />
       <SectionPage style="column" sectionPT="40px">
-        <SectionTitle>Résaweb</SectionTitle>
+        <SectionTitle>Lecteur Audiovisuel 3D</SectionTitle>
         <div className={s.SingleProject}>
           <div id="gsap_left_project">
             <ImgBlock
               imgHeight="100%"
-              imgURL="./images/projects/resaweb_img.PNG"
+              imgURL="./images/projects/audiovisualiser.png"
             />
           </div>
           <div id="gsap_right_project">
             <TextZone title="Objectif:">
-              Création d'un site de réservation de salles de classe.
+              Projet de 3ème année : nous avons réalisé un audiovisualiser qui
+              anime des objets 3D en rythme avec la musique. Ce projet nous a
+              permis d’utiliser l’API de Deezer afin de rechercher et d’écouter
+              des extraits de musiques à partir de leur base de données.
             </TextZone>
             <div className={s.SingleProjectList}>
               <SkillTitle>Outils utilisés</SkillTitle>
               <ul>{projectList}</ul>
             </div>
-            {/* <Button url="https://resaweb.peuron.butmmi.o2switch.site" new_tab>Voir le site</Button> */}
+            <Button url="https://threejs-reactjs.vercel.app/" new_tab>
+              Voir le site
+            </Button>
           </div>
         </div>
       </SectionPage>
@@ -78,4 +83,4 @@ const Resaweb = () => {
   );
 };
 
-export default Resaweb;
+export default Audiovisualiser;
